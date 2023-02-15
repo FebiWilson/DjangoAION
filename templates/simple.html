@@ -1,0 +1,10 @@
+<html>
+<body>
+    {% for p in obj %}
+        <tr>{{ p.Title }}</tr><br>
+        <tr><img src="{{ p.Image.url }}" alt="nOT fOUND" height="100" width="100"></tr><br>
+        <tr>{{ p.User }}</tr><br>
+    
+    {% endfor %}
+</body>
+</html>>
